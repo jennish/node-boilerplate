@@ -1,0 +1,29 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "description": "Sample node app",
+  "main": "index.js",
+  "author": "Jennish Robin",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --colors --progress"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "raw-loader": "^0.5.1",
+    "source-map-support": "^0.5.9",
+    "start-server-webpack-plugin": "^2.2.5",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
